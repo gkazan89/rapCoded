@@ -111,7 +111,12 @@ p "ayy must be the money"
 # # low
 
 shawty = {
-  "had_them"=> ["apple bottom jeans", "boots with the fur", "baggy sweat pants","reeboks with the straps",],
+  "had_them"=> [
+    "apple bottom jeans", 
+    "boots with the fur", 
+    "baggy sweat pants",
+    "reeboks with the straps",
+  ],
   "got"=> [],
 }
 
@@ -160,9 +165,15 @@ end
 # drop it like it's hot
 
 p"%%%%%%%%%%%"
-when_the = [{"crib_mon"=> "when_the_pimps_in_the"},{"get_at_ya"=>"pigs"},{"attitude"=>"get_a"}]
-I = [{"got_the_rolly on my arm" => "pouring Chandon,"}, {"roll_the_best_weed"=>"got_it_going_on"}]
-"it" == "hot"
+when_the = [
+  {"crib_mon"=> "when_the_pimps_in_the"},
+  {"get_at_ya"=>"pigs"},
+  {"attitude"=>"get_a"}
+]
+I = [
+  {"got_the_rolly on my arm" => "pouring Chandon,"}, 
+  {"roll_the_best_weed"=>"got_it_going_on"}
+]
 when_the.each do |x|
   p x
   3.times do
@@ -173,5 +184,4 @@ I.each do |x|
   p x
 end
 p"______"
-
 p "%%%%%%%%"
