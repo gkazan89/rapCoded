@@ -88,14 +88,13 @@ def check_reflection
   end
 end
 
-# # ride wit me
+# ride wit me
 shorty = {
   age: 19, 
   thicky_thick: true, 
   measurements: 36-25-34,
   wanna: true
 }
-
 
 def take_a_ride_with_me
   if age == 18 or 19 and wanna == true
@@ -134,10 +133,10 @@ def try_to_catch(_me_ridin)
     if they_see
       me_rollin == true
       they_hatin == true
-      # if my_music_so_loud
-      #   swangin == true
-      #   dirty == true 
-      # end
+      if my_music_so_loud
+        swangin == true
+        dirty == true 
+      end
     end
   end
 end
@@ -175,4 +174,4 @@ I.each do |x|
 end
 p"______"
 
- "%%%%%%%%"
+p "%%%%%%%%"
