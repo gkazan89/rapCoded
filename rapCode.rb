@@ -1,13 +1,8 @@
-# #
-# # good blog post idea:
-# # guess the rap song represented with code
+
+# # guess the rap song represented with code?
 
 
-# # if you're having girl problems I feel bad for you son
-# # I got 99 problems but a bitch aint one
-
-# girl_problems = false
-# count = 0
+# 99 problems
 
 girl_problems = true
 num = 0
@@ -23,8 +18,7 @@ end
 p "ive got #{num} problems"
 
 
-# # I got royalty got loyalty inside my dna
-# # cocaine quar
+# DNA
 
 my_dna = [
   "loyalty", 
@@ -62,10 +56,7 @@ end
 
 our_dna()
 
-
-
-# # meet me in the trap it's going down
-# # this one's my fave so far
+# #it's going down
 
 in_the = ["trap","mall","club"]
 def going_down?(location)
@@ -76,8 +67,6 @@ def going_down?(location)
   p "every where you meet me guarantee to go down"
 end
 going_down?(in_the)
-
-
 
 # # hot in herre
 
@@ -99,10 +88,6 @@ def check_reflection
   end
 end
 
-
-
-
-
 # # ride wit me
 shorty = {
   age: 19, 
@@ -122,6 +107,8 @@ def take_a_ride_with_me
 end
 
 p "ayy must be the money"
+
+
 # # low
 
 shawty = {
@@ -173,34 +160,6 @@ end
 
 # drop it like it's hot
 
-
-# When the pimp's in the crib ma
-
-
-# Drop it like it's hot
-# Drop it like it's hot
-# Drop it like it's hot
-
-
-# When the pigs try to get at you
-
-
-# Park it like it's hot
-# Park it like it's hot
-# Park it like it's hot
-
-
-# And if a %%%%% get a attitude
-# Pop it like it's hot
-# Pop it like it's hot
-# Pop it like it's hot
-
-#awhile  pouring Chandon
-  # I got the Rolly on my arm
-#while got it going on
-# And I roll the best weed cause I got it going on
-
-# OMG this one is hysterical!!!
 p"%%%%%%%%%%%"
 when_the = [{"crib_mon"=> "when_the_pimps_in_the"},{"get_at_ya"=>"pigs"},{"attitude"=>"get_a"}]
 I = [{"got_the_rolly on my arm" => "pouring Chandon,"}, {"roll_the_best_weed"=>"got_it_going_on"}]
@@ -216,4 +175,4 @@ I.each do |x|
 end
 p"______"
 
-p "%%%%%%%%"
+ "%%%%%%%%"
