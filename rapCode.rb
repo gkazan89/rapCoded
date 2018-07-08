@@ -164,7 +164,6 @@ end
 
 # drop it like it's hot
 
-p"%%%%%%%%%%%"
 when_the = [
   {"crib_mon"=> "when_the_pimps_in_the"},
   {"get_at_ya"=>"pigs"},
@@ -183,5 +182,13 @@ end
 I.each do |x|
   p x
 end
-p"______"
-p "%%%%%%%%"
+
+# can't tell me nothing
+
+get_my_money = true
+
+if get_my_money
+  tell_me_nothing = false
+else 
+end
+p "Excuse me, were you saying something?"
