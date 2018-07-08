@@ -152,7 +152,7 @@ end
 "daughter_cry" == true 
 
 def ms_jackson(_oh)
-  while true
+  while 
     "I_am_for_real" == true
     100000000000.times do
       "apologize" == true
